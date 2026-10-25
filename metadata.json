@@ -1,0 +1,6 @@
+{
+  "name": "PSB Ma'had Baitusunnah Indonesia",
+  "description": "Portal Penerimaan Santri Baru (PSB) 2027/2028 Ma'had Baitusunnah Indonesia - Pesantren Putri SMP & SMA dengan Asrama Mandiri dan Program Tahfidz Al-Qur'an Unggulan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

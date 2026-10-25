@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <!-- Top Arc for Curved Text: MA'HAD BAITUSSUNNAH INDONESIA -->
+    <path id="textArc" d="M 90,400 A 310,310 0 0,1 710,400" fill="none" />
+    <clipPath id="innerCircleClip">
+      <circle cx="400" cy="400" r="268" />
+    </clipPath>
+  </defs>
+
+  <!-- Clean White Background -->
+  <rect width="800" height="800" fill="#ffffff" />
+
+  <!-- Outer Green Circle Border -->
+  <circle cx="400" cy="400" r="378" fill="#ffffff" stroke="#0E8F44" stroke-width="22" />
+
+  <!-- Inner Green Ring Border -->
+  <circle cx="400" cy="400" r="268" fill="#ffffff" stroke="#0E8F44" stroke-width="12" />
+
+  <!-- Curved Text: MA'HAD BAITUSSUNNAH INDONESIA -->
+  <text fill="#142C80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="33" font-weight="900" letter-spacing="3.2">
+    <textPath href="#textArc" startOffset="50%" text-anchor="middle">
+      MA'HAD BAITUSSUNNAH INDONESIA
+    </textPath>
+  </text>
+
+  <!-- Inner Circle Graphic -->
+  <g clip-path="url(#innerCircleClip)">
+    <!-- Solid Navy Blue Area in Upper Circle -->
+    <path d="M 100,100 L 700,100 L 700,410 L 600,410 L 400,270 L 200,410 L 100,410 Z" fill="#142C80" />
+
+    <!-- Yellow / Gold Accent Contour on Chevron Roof -->
+    <path d="M 130,404 L 200,404 L 400,270 L 600,404 L 670,404" fill="none" stroke="#E3DD38" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" />
+    
+    <!-- Thin Navy Gap Below Yellow -->
+    <path d="M 130,410 L 200,410 L 400,276 L 600,410 L 670,410" fill="none" stroke="#142C80" stroke-width="3" stroke-linejoin="round" />
+
+    <!-- White Bold Acronym: MBI -->
+    <text x="400" y="250" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif" font-size="78" font-weight="900" text-anchor="middle" letter-spacing="3">
+      MBI
+    </text>
+
+    <!-- White Portal / Archway Interior -->
+    <path d="M 218,620 L 218,440 L 295,440 L 400,342 L 505,440 L 582,440 L 582,620" fill="#ffffff" />
+    
+    <!-- Green Archway Outline -->
+    <path d="M 218,620 L 218,440 L 295,440 L 400,342 L 505,440 L 582,440 L 582,620" fill="none" stroke="#0E8F44" stroke-width="9.5" stroke-linejoin="miter" />
+
+    <!-- Open Qur'an (Mushaf) Illustration -->
+    <g id="quran">
+      <!-- Center Upward Spire / Arrow -->
+      <path d="M 400,455 L 410,518 L 400,528 L 390,518 Z" fill="#0E8F44" />
+      <path d="M 400,528 L 426,558 L 416,562 L 400,540 L 384,562 L 374,558 Z" fill="#0E8F44" />
+
+      <!-- Left Qur'an Pages (Curved Layers) -->
+      <path d="M 395,466 C 352,424 286,442 246,490 C 252,508 268,528 314,520 C 350,514 374,498 395,486 Z" fill="#0E8F44" />
+      <path d="M 395,486 C 358,458 302,468 262,510 C 274,526 294,538 334,532 C 358,528 378,516 395,502 Z" fill="#0B783A" />
+      <path d="M 395,502 C 362,474 316,486 280,524 C 292,536 310,544 348,538 C 368,534 384,522 395,512 Z" fill="#08622E" />
+
+      <!-- Right Qur'an Pages (Curved Layers) -->
+      <path d="M 405,466 C 448,424 514,442 554,490 C 548,508 532,528 486,520 C 450,514 426,498 405,486 Z" fill="#0E8F44" />
+      <path d="M 405,486 C 442,458 498,468 538,510 C 526,526 506,538 466,532 C 442,528 422,516 405,502 Z" fill="#0B783A" />
+      <path d="M 405,502 C 438,474 484,486 520,524 C 508,536 490,544 452,538 C 432,534 416,522 405,512 Z" fill="#08622E" />
+
+      <!-- White Highlights on Page Rims -->
+      <path d="M 395,466 C 360,440 304,452 268,488" fill="none" stroke="#ffffff" stroke-width="2.8" stroke-linecap="round" />
+      <path d="M 405,466 C 440,440 496,452 532,488" fill="none" stroke="#ffffff" stroke-width="2.8" stroke-linecap="round" />
+    </g>
+
+    <!-- Arabic Calligraphy: بَيْتُ السُّنَّةِ -->
+    <g id="arabicCalligraphy" transform="translate(400, 608)">
+      <!-- Minaret / Spire in Center pointing into the Qur'an -->
+      <path d="M -8,-2 L 0,-24 L 8,-2 L 4,-2 L 4,14 L -4,14 L -4,-2 Z" fill="#0E8F44" stroke="#0E8F44" stroke-width="1.5" />
+      
+      <!-- Arabic Text Base Representation -->
+      <text x="0" y="8" fill="#0E8F44" stroke="#0E8F44" stroke-width="1.5" font-family="'Traditional Arabic', 'Amiri', 'Scheherazade New', 'Noto Naskh Arabic', 'DejaVu Sans', serif" font-size="52" font-weight="bold" text-anchor="middle" letter-spacing="1">
+        بَـيْـتُ السُّـنَّـةِ
+      </text>
+
+      <!-- Decorative Three Dots at Base -->
+      <circle cx="-118" cy="18" r="3.2" fill="#0E8F44" />
+      <circle cx="-128" cy="24" r="3.2" fill="#0E8F44" />
+      <circle cx="-108" cy="24" r="3.2" fill="#0E8F44" />
+
+      <circle cx="118" cy="18" r="3.2" fill="#0E8F44" />
+      <circle cx="128" cy="24" r="3.2" fill="#0E8F44" />
+      <circle cx="108" cy="24" r="3.2" fill="#0E8F44" />
+    </g>
+  </g>
+</svg>

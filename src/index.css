@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@theme {
+  /* Burgundy tokens remapped to rich deep espresso coffee & mocca tones */
+  --color-burgundy-950: #231710;
+  --color-burgundy-900: #382417;
+  --color-burgundy-800: #4B3621;
+  --color-burgundy-700: #5C432A;
+  --color-burgundy-600: #755437;
+  --color-burgundy-500: #8C6543;
+  --color-burgundy-100: #EFE4D6;
+  --color-burgundy-50: #FAF6F0;
+
+  /* Rich Coffee Palette */
+  --color-coffee-950: #1D140E;
+  --color-coffee-900: #2E1F16;
+  --color-coffee-800: #442E20;
+  --color-coffee-700: #5D402C;
+  --color-coffee-600: #7A553B;
+  --color-coffee-500: #9B704F;
+  --color-coffee-400: #BC906D;
+  --color-coffee-300: #D8B597;
+  --color-coffee-200: #EADECE;
+  --color-coffee-100: #F5EFE6;
+  --color-coffee-50: #FBF8F3;
+
+  /* Mocca Accent Palette */
+  --color-mocca-950: #261A13;
+  --color-mocca-900: #3D291E;
+  --color-mocca-800: #573B2B;
+  --color-mocca-700: #704D38;
+  --color-mocca-600: #8C6249;
+  --color-mocca-500: #A8795D;
+  --color-mocca-400: #C2967A;
+  --color-mocca-300: #D9B79F;
+  --color-mocca-200: #ECDACD;
+  --color-mocca-100: #F6EEE7;
+  --color-mocca-50: #FCF9F6;
+
+  /* Soft Warm Cream Tones */
+  --color-cream-900: #7D6F59;
+  --color-cream-800: #9C8C72;
+  --color-cream-700: #B8A88E;
+  --color-cream-600: #CFC1A9;
+  --color-cream-500: #DFD4C0;
+  --color-cream-400: #EAE2D2;
+  --color-cream-300: #F2EDE2;
+  --color-cream-200: #F8F5EE;
+  --color-cream-100: #FCFAF6;
+  --color-cream-50: #FFFEFC;
+
+  --color-natural-parchment: #FCFAF6;
+  --color-natural-sand: #F5EFE6;
+  --color-natural-border: #E5DACB;
+  --color-natural-divider: #EDE3D5;
+  --color-natural-camel: #C49A6C;
+
+  --font-arabic: 'Amiri', serif;
+  --font-serif: 'Lora', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FAF6F0;
+  color: #231710;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, .font-serif-title {
+  font-family: var(--font-serif);
+}
+
+.font-arabic {
+  font-family: var(--font-arabic);
+}
+
+
